@@ -53,10 +53,9 @@
 
         <div class="w-75 m-auto">
 
-            <!--Portfolio: 6 progetti con tasti: "Preview" e "Visit Site"-->
-
+            <!--Portfolio: 6 progetti con foto titolo e tasti "Preview" e "Visit Site"-->
             <div class="row">
-                <div class="col-12 text-center mt-4 mb-1">
+                <div class="col-12 text-center mt-3 mb-1">
                     <h1>PORTFOLIO</h1>
                 </div>
             </div>
@@ -144,7 +143,52 @@
         </div>
 
         <!--Sezione Form per "Want an offer?" con tasto "Send"-->
-        
+        <div class="row bg-info">
+            <p class="fs-1 text-center mt-4 mb-2">WANT AN OFFER?</p>
+
+            <form class="row g-2 w-75 m-auto mt-0">
+                <div class="col-md-6">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Enter your first name...">
+                </div>
+                <div class="col-6">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Enter your last name...">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email Adress</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
+                </div>
+                <div class="col-6">
+                    <label for="inputHoursRequest" class="form-label">Hour Requested</label>
+                    <input type="text" class="form-control" id="inputHoursRequest" placeholder="Hours Request...">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Select the type of work</option>
+                        <option>Beck-end Developer</option>
+                        <option>Front-end Developer</option>
+                        <option>Project Analisys</option>
+
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputDiscountCode" class="form-label">Discount Code</label>
+                    <input type="text" class="form-control" id="inputDiscountCode">
+                </div>
+                <div class="col-md-12">
+                    <label for="inputMessage" class="form-label">Message</label>
+                    <textarea class="form-control" placeholder="Specify your work commission..." id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+
+                </div>
+                <div class="col-12 text-center mt-4 mb-5">
+                    <button type="submit" class="btn btn-warning ml-3 mr-3">Send</button>
+                </div>
+            </form>
+        </div>
     </main>
 
     <footer>

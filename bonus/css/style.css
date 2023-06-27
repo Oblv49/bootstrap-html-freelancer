@@ -12,3 +12,15 @@
         display: none;
     }
 }
+
+#rowProfilePattern {
+  background-image: url(../img/pngkey.com-email-png-icon-840683.png);
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 20%;
+  
+}
+
+.textGreen {
+    color: #04f872;
+}

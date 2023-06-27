@@ -3,3 +3,12 @@
       width: 100% !important;
     }
   }
+
+  @media only screen and (max-width: 576px) {
+    .mobile_only {
+        display: block;
+    }
+    .desktop_only {
+        display: none;
+    }
+}
